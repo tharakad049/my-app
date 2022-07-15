@@ -1,9 +1,9 @@
 export const styleSheet = {
     container: {
         display: 'flex',
-        backgroundColor: 'gray',
+        backgroundColor: "blue",
         flexDirection: 'column',
         height: '100vh',
         width: '100vw'
-    },
+    }
 }
