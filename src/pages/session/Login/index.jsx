@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import {styleSheet} from "./style";
 import {withStyles} from "@mui/styles";
 import {Typography} from "@mui/material";
-import TextField from '@mui/material/TextField';
-import GDSEButton from "../../components/common/Button"
-import GDSESnackBar from "../../components/common/SnackBar";
+import TextField from "@mui/material/TextField";
+import GDSEButton from "../../../components/common/Button"
+import GDSESnackBar from "../../../components/common/SnackBar";
 
 class Login extends Component{
     constructor(props){
@@ -17,8 +17,8 @@ class Login extends Component{
                 password: "",
             },
             open: false,
-            message: '',
-            severity: ''
+            message: "",
+            severity: ""
         }
     }
     checkValidity(){

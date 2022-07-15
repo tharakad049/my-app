@@ -1,6 +1,6 @@
 import React from "react";
 import HomePage from "../pages/Home";
-import Login from "../pages/Login";
+import Login from "../pages/session/Login";
 import {Route, Routes} from "react-router-dom"
 import NotFound from "../pages/session/NotFound";
 import FlexBoxLayout from "../pages/Layouts/FlexBox";
