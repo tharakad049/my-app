@@ -11,18 +11,17 @@ class Posts extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            top100Films: [
-                { label: 'The Shawshank Redemption', year: 1994 },
-                { label: 'The Godfather', year: 1972 },
-                { label: 'The Godfather: Part II', year: 1974 },
-                { label: 'The Dark Knight', year: 2008 },
-                { label: '12 Angry Men', year: 1957 },
-            ]
+            formData: {
+                userId: '',
+                id: '',
+                title: '',
+                body: ''
+            }
         }
     }
 
     handleSubmit(){
-        
+        console.log("ok");
     }
 
     render() {
